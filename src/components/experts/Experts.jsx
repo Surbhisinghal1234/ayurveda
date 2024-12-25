@@ -30,9 +30,9 @@ const Experts = () => {
                     <div className='flex flex-col gap-3 px-[1rem] py-[2.5rem]'>
                         <div className=''>
 
-                            <div className='relative'>
-                                <img src={expert.image} alt="" className='m-auto relative' />
-                                <div className=" inline-block left-[8.8rem] md:left-[10.2rem] absolute bottom-0 w-[5rem] bg-black rounded-[2.5rem] py-1 px-2 ">
+                            <div className='relative h-[10rem] w-[10rem] m-auto'>
+                                <img src={expert.image} alt="" className='m-auto ' />
+                                <div className=" inline-block left-[2.6rem] bottom-[.6rem]  absolute  w-[5rem] bg-black rounded-[2.5rem] py-1 px-2 ">
                                     <span className=" font-bold text-white mr-1">{expert.rating}</span>
                                     <span className=" text-yellow-500">⭐</span>
                                 </div>
