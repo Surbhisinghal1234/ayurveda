@@ -1,0 +1,129 @@
+
+.hero-sec {
+    position: relative; 
+    background-color: #951D1C; 
+    width: 100%;
+    height: 639px;
+  }
+  
+  .hero-sec::before {
+    content: ""; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90.17deg, rgba(18, 18, 18, 0.88) 1.03%, rgba(18, 18, 18, 0.92) 44.18%, rgba(1, 1, 1, 0) 95.15%);
+    z-index: 1; 
+  }
+  
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 41%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: white;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 90%; 
+    max-width: 62rem;
+  }
+  
+  .left {
+    position: absolute;
+    left: 0px;
+    z-index: 4;
+    color: white;
+    width: 50%; 
+  }
+  
+  .right {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 50%;
+    background: url('../../assets/images/hero-sec-img.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+
+  @media screen and (max-width:1400px){
+    .hero-content {
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        color: white;
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        width: 90%; 
+        max-width: 62rem;
+      }
+  }
+  @media screen and (max-width:1180px){
+    .hero-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        color: white;
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        width: 90%; 
+        max-width: 62rem;
+      }
+  }
+  @media screen and (max-width:1050px){
+    .hero-content {
+        position: absolute;
+        top: 50%;
+        left: 53%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        color: white;
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        width: 90%; 
+        max-width: 62rem;
+      }
+  }
+  @media (max-width: 768px) {
+   
+  
+    .hero-content {
+      width: 80%; 
+    }
+  
+    .left, .right {
+      position: relative;
+      width: 100%; 
+      height: auto;
+    }
+  
+    .hero-content h3 {
+      font-size: 2rem; 
+    }
+  
+    .hero-content p {
+      font-size: 1rem; 
+    }
+  }
+  
+  /* phone  */
+  .hero-content-phone{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.775), rgba(0, 0, 0, 0.414)), url('../../assets/images/hero-img-phn.png') ;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+  }
+ 
