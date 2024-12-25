@@ -51,11 +51,17 @@ const Footer = () => {
 
                 <div className='flex md:hidden text-justify  flex-col gap-10'>
                     <h3 className='text-dark text-xl font-bold'>Subscribe to our Newsletter and join Amrutam Family today!</h3>
-                   
-                        <div className=' border-dark border-2 rounded-[2rem] w-[17.4rem] flex gap-4 items-center'> <span className='pl-6 sm:text-xl text-[#474747]'>Your Email Address</span>
-                        <button className='bg-black rounded-r-[2rem]  text-white  py-2 px-4'>Subscribe</button>
-                        </div>
 
+                    {/* <div className=' border-dark border-2 rounded-[2rem] w-[17.4rem] flex gap-4 items-center'> <span className='pl-6 sm:text-xl text-[#474747]'>Your Email Address</span>
+                        <button className='bg-black rounded-r-[2rem]  text-white  py-2 px-4'>Subscribe</button>
+                        </div> */}
+
+                    <div className='border-dark border-2 rounded-[2rem]  min-w-[17.4rem] flex gap-4 items-center justify-between'>
+                        <span className='pl-6 sm:text-xl text-[#474747] flex-1'>Your Email Address</span>
+                        <button className='bg-black rounded-r-[2rem] text-white py-2 px-4'>
+                            Subscribe
+                        </button>
+                    </div>
 
                 </div>
             </div>
