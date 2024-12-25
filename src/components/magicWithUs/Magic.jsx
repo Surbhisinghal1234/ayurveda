@@ -16,8 +16,8 @@ const Magic = () => {
 
         <div className='xl:w-[35%] hidden  md:flex  flex-col gap-[3rem] order-[1] md:order-[1]'>
 
-            <div className='flex flex-col-reverse md:flex-row '>
-                <div className='w-[60%]'>
+            <div className='flex  gap-4 ml-[2rem]'>
+                <div className='w-[60%] text-end'>
                     <h4 className='font-semibold'>Personalized Wellness
                     </h4>
                     <p className='text-[#515151]'>Get treatments made just for you based on your individual doshas ( body type)</p>
@@ -27,8 +27,8 @@ const Magic = () => {
                     <img className='ml-2 mt-2' src={heartBeat} alt="" />
                 </div>
             </div>
-            <div className='flex'>
-                <div className='w-[60%]'>
+            <div className='flex  gap-4 mr-[2rem]'>
+                <div className='w-[60%] text-end'>
                     <h4 className='font-semibold'>Personalized Wellness
                     </h4>
                     <p className='text-[#515151]'>Get treatments made just for you based on your individual doshas ( body type)</p>
@@ -38,8 +38,8 @@ const Magic = () => {
                     <img className='' src={ribbon} alt="" />
                 </div>
             </div>
-            <div className='flex'>
-                <div className='w-[60%]'>
+            <div className='flex gap-4 ml-[2rem]'>
+                <div className='w-[60%] text-end'>
                     <h4 className='font-semibold'>Personalized Wellness
                     </h4>
                     <p className='text-[#515151]'>Get treatments made just for you based on your individual doshas ( body type)</p>
@@ -66,38 +66,41 @@ const Magic = () => {
 
         <div className='xl:w-[35%] hidden md:flex md:flex-col gap-[3rem] order-[2]'>
 
-<div className='flex '>
-    <div className='w-[60%]'>
-        <h4 className='font-semibold'>Personalized Wellness
-        </h4>
-        <p className='text-[#515151]'>Get treatments made just for you based on your individual doshas ( body type)</p>
-    </div>
-
-    <div className='bg-[#F5F3FC] rounded-full h-[6rem] w-[6rem] flex justify-center items-center '>
+<div className='flex gap-4'>
+<div className='bg-[#F5F3FC] rounded-full h-[6rem] w-[6rem] flex justify-center items-center '>
         <img className='ml-2 mt-2' src={protection} alt="" />
     </div>
-</div>
-<div className='flex'>
     <div className='w-[60%]'>
         <h4 className='font-semibold'>Personalized Wellness
         </h4>
         <p className='text-[#515151]'>Get treatments made just for you based on your individual doshas ( body type)</p>
     </div>
 
-    <div className='bg-[#FEFCED] rounded-full h-[6rem] w-[6rem] flex justify-center items-center '>
+    
+</div>
+<div className='flex gap-4 ml-[2rem]'>
+<div className='bg-[#FEFCED] rounded-full h-[6rem] w-[6rem] flex justify-center items-center '>
         <img className='ml-2 mt-2' src={ayurveda} alt="" />
     </div>
-</div>
-<div className='flex'>
     <div className='w-[60%]'>
         <h4 className='font-semibold'>Personalized Wellness
         </h4>
         <p className='text-[#515151]'>Get treatments made just for you based on your individual doshas ( body type)</p>
     </div>
 
-    <div className='bg-[#EAF2EA] rounded-full h-[6rem] w-[6rem] flex justify-center items-center '>
+    
+</div>
+<div className='flex gap-4' >
+<div className='bg-[#EAF2EA] rounded-full h-[6rem] w-[6rem] flex justify-center items-center '>
         <img className='ml-2 mt-2' src={strong} alt="" />
     </div>
+    <div className='w-[60%]'>
+        <h4 className='font-semibold'>Personalized Wellness
+        </h4>
+        <p className='text-[#515151]'>Get treatments made just for you based on your individual doshas ( body type)</p>
+    </div>
+
+   
 </div>
 </div>
 
