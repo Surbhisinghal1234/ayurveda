@@ -29,9 +29,9 @@ const Magic = () => {
             </div>
             <div className='flex  gap-4 mr-[2rem]'>
                 <div className='w-[60%] text-end'>
-                    <h4 className='font-semibold'>Personalized Wellness
+                    <h4 className='font-semibold'>Mind-Body Connection"
                     </h4>
-                    <p className='text-[#515151]'>Get treatments made just for you based on your individual doshas ( body type)</p>
+                    <p className='text-[#515151]'>Keep your mind and body in sync for a happy life.</p>
                 </div>
 
                 <div className='bg-[#EAF2EA] rounded-full h-[6rem] w-[6rem] flex justify-center items-center '>
@@ -40,9 +40,9 @@ const Magic = () => {
             </div>
             <div className='flex gap-4 ml-[2rem]'>
                 <div className='w-[60%] text-end'>
-                    <h4 className='font-semibold'>Personalized Wellness
+                    <h4 className='font-semibold'>Holistic Healing
                     </h4>
-                    <p className='text-[#515151]'>Get treatments made just for you based on your individual doshas ( body type)</p>
+                    <p className='text-[#515151]'>Fix the root problem for long-lasting health.</p>
                 </div>
 
                 <div className='bg-[#FCF1F1] rounded-full h-[6rem] w-[6rem] flex justify-center items-center '>
@@ -71,9 +71,9 @@ const Magic = () => {
         <img className='ml-2 mt-2' src={protection} alt="" />
     </div>
     <div className='w-[60%]'>
-        <h4 className='font-semibold'>Personalized Wellness
+        <h4 className='font-semibold'>Holistic Healing
         </h4>
-        <p className='text-[#515151]'>Get treatments made just for you based on your individual doshas ( body type)</p>
+        <p className='text-[#515151]'>Fix the root problem for long-lasting health.</p>
     </div>
 
     
@@ -83,9 +83,9 @@ const Magic = () => {
         <img className='ml-2 mt-2' src={ayurveda} alt="" />
     </div>
     <div className='w-[60%]'>
-        <h4 className='font-semibold'>Personalized Wellness
+        <h4 className='font-semibold'>Natural Remedies
         </h4>
-        <p className='text-[#515151]'>Get treatments made just for you based on your individual doshas ( body type)</p>
+        <p className='text-[#515151]'>Using herbs and natural therapies for healing.</p>
     </div>
 
     
@@ -95,9 +95,9 @@ const Magic = () => {
         <img className='ml-2 mt-2' src={strong} alt="" />
     </div>
     <div className='w-[60%]'>
-        <h4 className='font-semibold'>Personalized Wellness
+        <h4 className='font-semibold'>Boosting immunity
         </h4>
-        <p className='text-[#515151]'>Get treatments made just for you based on your individual doshas ( body type)</p>
+        <p className='text-[#515151]'>Stay strong and healthy for life, not just for today.</p>
     </div>
 
    
