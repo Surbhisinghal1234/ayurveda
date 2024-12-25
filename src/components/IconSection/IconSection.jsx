@@ -9,7 +9,7 @@ const IconSection = () => {
         {items.map((item, index) => (
           <div 
             key={index} 
-            className="flex  items-center sm:items-start justify-center border-[#FFF1CF] border-b-2 md:border-b-2 sm:border-2  p-6  md:gap-4 "
+            className="flex  items-center justify-center border-[#FFF1CF] border-b-2 md:border-b-2 sm:border-2  p-6  md:gap-4 "
           >
             <div className='rounded-full bg-white border-2 border-dark h-[4.1rem] w-[5rem] p-4 flex justify-center items-center '>
               <img src={item.image} alt={`Item ${index + 1}`} className="w-full h-full" />
