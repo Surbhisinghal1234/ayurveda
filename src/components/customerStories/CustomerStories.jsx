@@ -20,7 +20,7 @@ const CustomerStories = () => {
         modules={[Pagination]}
         className="mySwiper h-[10rem] "
         breakpoints={{
-          320: { slidesPerView: 1 },  
+          0: { slidesPerView: 1 },  
           640: { slidesPerView: 2 },
           1024: { slidesPerView: 3 }  
         }}
@@ -36,7 +36,7 @@ const CustomerStories = () => {
               </div>
               <div className="px-6 pt-6 pb-10 gap-2 flex flex-col ">
                 <div className="flex justify-between">
-                  <div className='flex gap-4 '>
+                  <div className='flex items-center gap-4 sm:gap-1 md:gap-4 '>
                     <p className='w-10 h-10 sm:h-12 sm:w-12 bg-[#000000b8] rounded-full'></p>
                     <div className='flex flex-col items-start'>
                       <p className=" font-semibold text-[16px] sm:font-bold">{customer.name}</p>

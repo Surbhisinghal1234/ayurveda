@@ -27,7 +27,7 @@ const AyurvedicApproach = () => {
           modules={[Pagination]}
           className="mySwiper ayurveda-swiper h-[10rem] "
           breakpoints={{
-            320: { slidesPerView: 1 },
+            0: { slidesPerView: 1 },
             640: { slidesPerView: 2 },
             1024: { slidesPerView: 4 }
           }}

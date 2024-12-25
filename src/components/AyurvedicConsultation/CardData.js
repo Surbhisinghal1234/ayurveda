@@ -53,6 +53,7 @@ export const cardData = [
                 content: img3,
                 width: "min-w-[25%]"
             }
-        ]
+        ],
+        rowStyle: "md:p-[.8rem]"
     }
 ]
