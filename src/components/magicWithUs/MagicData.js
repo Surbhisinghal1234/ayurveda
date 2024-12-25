@@ -54,7 +54,7 @@ export const magicCards = [
         image: strong,
         head: "Boosting immunity",
         text: 'Stay strong and healthy for life, not just for today.',
-        bgColor: '#515151'
+        bgColor: '#EAF2EA'
     },
 
 
