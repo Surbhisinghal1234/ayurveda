@@ -1,7 +1,7 @@
 import React from 'react'
 import img1 from "../../assets/images/image1.png"
 import img2 from "../../assets/images/image2.png"
-import iphone from "../../assets/images/iphone.png"
+import iphone from "../../assets/images/iPhone.png"
 import "./homeApp.css"
 
 const HomeApp = () => {
