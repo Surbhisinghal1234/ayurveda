@@ -13,8 +13,6 @@ const Footer = () => {
                             support@amrutam.co.in
                         </p>
                         <p>
-
-
                             Amrutam Pharmaceuticals Pvt Ltd., chitragupt ganj, Nai Sadak, Lashkar, Gwalior - 474001
                         </p>
                         <p>+91 9713171999</p>
@@ -55,7 +53,7 @@ const Footer = () => {
                     <h3 className='text-dark text-xl font-bold'>Subscribe to our Newsletter and join Amrutam Family today!</h3>
                     <div className='sm:text-xl text-[#474747]'>
                         <div className=' inline relative '> <span className='border-t-2 border-b-2  border-l-2 border-dark rounded-[2rem] sm:pl-6 sm:pr-[2.5rem] sm:py-3 pl-4 pr-[2rem] py-2 '>Your Email Address</span>
-                        <button className='bg-black absolute sm:top-[-14px] sm:right-[-93px] top-[-9.5px] right-[-60px] py-[8.5px] sm:py-[13px] text-white rounded-r-[2rem] px-2 sm:px-4'>Subscribe</button>
+                        <button className='bg-black absolute sm:top-[-14px] sm:right-[-93px] top-[-9.4px] right-[-60px] py-[8.175px] sm:py-[13px] text-white rounded-r-[2rem] px-2 sm:px-4'>Subscribe</button>
                         </div>
 
                     </div>

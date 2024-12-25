@@ -22,7 +22,7 @@ const HeroSection = () => {
       <p className='text-primary text-xl sm:text-2xl'>Namaste, Welcome to Amrutam</p>
         <h3 className='text-white font-semibold text-[2rem] '>Step into Holistic Healing with <span className='text-primary relative'>Ayurveda   <span className='absolute bottom-0 left-0 w-full h-[2px] bg-primary'></span> </span>  Book Consultation with certified Experts  </h3>
         <p className=' text-xl text-primary'>Dive into the world of ayurveda and Experience Personalized Health Solutions and Holistic Guidance from Trusted Ayurvedic Doctors Anytime, anywhere.</p>
-        <button className='bg-dark py-[10px] w-[16rem]   rounded-[10px] text-white text-xl'>BOOK AN APPOINTMENT</button>
+        <button className='bg-dark py-[10px] w-[16rem]   rounded-[10px] text-white text'>BOOK AN APPOINTMENT</button>
       </div>
     </div>
     

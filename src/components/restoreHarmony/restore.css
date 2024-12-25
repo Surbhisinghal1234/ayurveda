@@ -1,9 +1,19 @@
 .restore-harmony{
     background: linear-gradient(rgba(0, 0, 0, 0.526), rgba(0, 0, 0, 0.521)), url("../../assets/images/restore-img.png");
-
     width: 100%;
     height: 40rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+@media screen and (max-width:768px){
+    .restore-harmony{
+        background: linear-gradient(rgba(0, 0, 0, 0.526), rgba(0, 0, 0, 0.521)), url("../../assets/images/restorePhn.png");
+        width: 100%;
+        height: 40rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
