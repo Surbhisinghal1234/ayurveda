@@ -7,7 +7,7 @@ import "./homeApp.css"
 const HomeApp = () => {
     return (
         <>
-            <div className='mt-2 hidden lg:flex bg-primary     gap-[2rem] px-[3rem] lg:px-[4rem] xl:px-[8rem] py-[4rem] '>
+            <div className='mt-2 hidden lg:flex bg-primary  gap-[2rem] px-[1.5rem] sm:px-[3rem] lg:px-[4rem] xl:px-[8rem] py-[4rem] '>
 
                 <div className='lg:w-[50%] flex flex-col gap-[2.5rem]'>
 

@@ -21,7 +21,10 @@ export default {
         lightSky:"#ECE7FF",
         lightGray:"#ECFEE7",
         footercolor : "#dce3dc"
-      }
+      },
+      screens: {
+        'xs': '400px', // This is your custom breakpoint
+      },
     },
   },
   plugins: [],

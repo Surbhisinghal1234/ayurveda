@@ -4,7 +4,7 @@ import { items } from './IconData'
 
 const IconSection = () => {
   return (
-    <div className="w-full bg-primary px-4 sm:px-8 lg:px-32 ">
+    <div className="w-full bg-primary px-4 px-[1.5rem] sm:sm:px-8 lg:px-32 ">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 ">
         {items.map((item, index) => (
           <div 

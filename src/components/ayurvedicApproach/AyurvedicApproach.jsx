@@ -9,7 +9,7 @@ import "./ayurveda.css"
 const AyurvedicApproach = () => {
   return (
     <>
-      <div className='ayurveda m-auto flex flex-col items-center py-[4rem] gap-[3rem]  px-[3rem] lg:px-[4rem] xl:px-[8rem]'>
+      <div className='ayurveda m-auto flex flex-col items-center py-[4rem] gap-[3rem] px-[1.5rem] sm:px-[3rem] lg:px-[4rem] xl:px-[8rem]'>
 
 
         <div className=' sm:w-[70%] lg:w-[60%]  gap-[1rem] flex flex-col justify-center items-center'>

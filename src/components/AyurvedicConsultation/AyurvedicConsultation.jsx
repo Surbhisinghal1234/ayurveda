@@ -4,7 +4,7 @@ import { cardData } from './CardData'
 const AyurvedicConsultation = () => {
   return (
     <>
-      <div className='bg-primary py-14 px-[3rem] lg:px-[4rem] xl:px-[8rem]'>
+      <div className='bg-primary py-14 px-[1.5rem] sm:px-[3rem] lg:px-[4rem] xl:px-[8rem]'>
 
         <h2 className='text-dark text-[2rem] font-semibold md:text-4xl mb-8 text-center md"font-bold'>What sets Ayurvedic consultations apart?</h2>
         <div className=" flex flex-col gap-4 items-center text-dark">

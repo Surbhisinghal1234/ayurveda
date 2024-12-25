@@ -27,7 +27,7 @@ const Experts = () => {
             {expertData.map((expert) => (
                 <SwiperSlide key={expert.id} className=''>
 
-                    <div className='flex flex-col gap-3 py-[2.5rem]'>
+                    <div className='flex flex-col gap-3 px-[1rem] py-[2.5rem]'>
                         <div className=''>
 
                             <div className='relative'>
