@@ -8,6 +8,7 @@ import protection from "../../assets/images/protection.png"
 import ayurveda from "../../assets/images/ayurveda.png"
 import lotusPosition from "../../assets/images/lotus-position.png"
 import { magicCards } from './MagicData'
+import "./magic.css"
 
 const Magic = () => {
     return (
@@ -108,7 +109,7 @@ const Magic = () => {
 
 <div className="grid grid-cols-2 md:hidden gap-4">
       {magicCards.map((card, index) => (
-        <div key={index} className="bg-white flex flex-col gap-4 items-center  p-4 rounded-lg shadow-md">
+        <div key={index} className="magic-cards bg-white flex flex-col gap-4 items-center  p-4 rounded-lg ">
           <div className='bg-[#EAF2EA] rounded-full h-[6rem] w-[6rem] flex justify-center items-center '  style={{ backgroundColor: card.bgColor }} >
         <img className='ml-2 mt-2' src={card.image} alt="" 
           

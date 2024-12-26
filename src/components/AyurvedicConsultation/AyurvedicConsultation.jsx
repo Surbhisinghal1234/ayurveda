@@ -12,7 +12,7 @@ const AyurvedicConsultation = () => {
           {cardData.map((row, rowIndex) => (
             <div 
               key={rowIndex} 
-              className={`flex flex-col md:flex-row gap-6 justify-center ${row.rowStyle ? row.rowStyle : ''}`} // Adding padding here for row
+              className={`flex flex-col md:flex-row gap-6 justify-center ${row.rowStyle ? row.rowStyle : ''}`} 
             >
               {row.cards.map((card, cardIndex) => (
                 <div
@@ -22,9 +22,15 @@ const AyurvedicConsultation = () => {
                   {card.type === 'text' ? (
                     <>
                       <div className="flex items-center rounded-lg px-6 lg:px-10 h-[18rem] md:h-[20rem] lg:h-[18rem] flex-col gap-6 bg-white justify-center border-t-4 border-dark">
+
+
                         <div className='py-[3rem] flex flex-col gap-[1.5rem]'>
-                          <p className='font-semibold text-2xl text-center'>{card.heading}</p>
-                          <p className="text-dark text-center font-semibold">{card.paragraph}</p>
+
+                          <p className={`font-semibold text-2xl  ${rowIndex === 0 && cardIndex === 0 ? 'text-center' : 'text-left'}`}>{card.heading}</p>
+
+                          <p className={`text-dark font-semibold ${rowIndex === 0 && cardIndex === 0 ? 'text-center' : 'text-left'}`}>{card.paragraph}</p>
+
+
                         </div>
                       </div>
                     </>
