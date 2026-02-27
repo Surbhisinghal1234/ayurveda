@@ -1,4 +1,3 @@
-import React from 'react'
 import ExpertButton from './ExpertButton'
 import Experts from './Experts'
 import ExpertHead from './ExpertHead'

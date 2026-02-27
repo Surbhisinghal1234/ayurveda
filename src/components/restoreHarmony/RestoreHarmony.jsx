@@ -1,4 +1,3 @@
-import React from 'react'
 import "./restore.css"
 const RestoreHarmony = () => {
   return (

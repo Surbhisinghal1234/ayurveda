@@ -1,4 +1,3 @@
-import React from 'react'
 import CustomerHead from './CustomerHead'
 import CustomerStories from './CustomerStories'
 

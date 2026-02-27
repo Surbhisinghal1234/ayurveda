@@ -1,71 +1,80 @@
-import React from 'react'
+
+import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi'
 
 const Footer = () => {
     return (
-        <>
-            <div className='px-[1.5rem] sm:px-[4rem] md:px-0 bg-footercolor flex flex-col w-[100%] md:items-center gap-[2rem] pt-[5rem] pb-[6rem]'>
-
-
-                <div className='flex md:hidden  text-justify  flex-col gap-2'>
-                    <h3 className='text-dark text-xl font-bold'>Get in touch</h3>
-                    <div className='text-xl text-black flex flex-col gap-[2rem]'>
-                        <p>
-                            support@amrutam.co.in
-                        </p>
-                        <p>
-                            Amrutam Pharmaceuticals Pvt Ltd., chitragupt ganj, Nai Sadak, Lashkar, Gwalior - 474001
-                        </p>
-                        <p>+91 9713171999</p>
+        <footer className="bg-footercolor text-[#474747]">
+            <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                {/* branding & social */}
+                <div className="flex flex-col gap-4">
+                    <h3 className="text-dark text-2xl font-bold">Aayurveda</h3>
+                    <p className="text-sm">
+                        Bringing ancient wellness practices into your modern life. We believe in
+                        natural balance, personalised care and sustainable health.
+                    </p>
+                    <div className="flex space-x-4 mt-4 text-xl text-dark">
+                        <a href="#" aria-label="Facebook">
+                            <FiFacebook />
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <FiTwitter />
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <FiInstagram />
+                        </a>
                     </div>
-
                 </div>
 
-
-                <div className=' text-justify flex flex-col gap-2'>
-                    <h3 className='text-dark text-xl font-bold'>Information</h3>
-                    <div className='text-xl text-[#474747]'>
-                        <p>About Us
-                        </p>
-                        <p>
-                            Terms and Conditions
-                        </p>
-                        <p>
-                            Privacy Policy
-                        </p>
-                        <p>
-                            Privacy Policy for Mobile Apps
-                        </p>
-                        <p>
-                            Shipping and Returns Policy
-                        </p>
-                        <p>
-                            International Delivery
-                        </p>
-                        <p>
-                            For Businesses, Hotels and Resorts
-                        </p>
-                    </div>
-
+                {/* information links */}
+                <div className="flex flex-col gap-3">
+                    <h4 className="text-dark text-lg font-semibold">Information</h4>
+                    <ul className="text-sm space-y-2">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Terms &amp; Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Shipping &amp; Returns</a></li>
+                        <li><a href="#">International Delivery</a></li>
+                        <li><a href="#">Business Partners</a></li>
+                    </ul>
                 </div>
 
+                {/* contact details */}
+                <div className="flex flex-col gap-3">
+                    <h4 className="text-dark text-lg font-semibold">Contact Us</h4>
+                    <p className="text-sm">support@amrutam.co.in</p>
+                    <p className="text-sm">
+                        Amrutam Pharmaceuticals Pvt Ltd., Chitragupt Ganj, Nai Sadak,
+                        Lashkar, Gwalior - 474001
+                    </p>
+                    <p className="text-sm">+91 97131 71999</p>
+                </div>
 
-                <div className='flex md:hidden text-justify  flex-col gap-10'>
-                    <h3 className='text-dark text-xl font-bold'>Subscribe to our Newsletter and join Amrutam Family today!</h3>
-
-                    {/* <div className=' border-dark border-2 rounded-[2rem] w-[17.4rem] flex gap-4 items-center'> <span className='pl-6 sm:text-xl text-[#474747]'>Your Email Address</span>
-                        <button className='bg-black rounded-r-[2rem]  text-white  py-2 px-4'>Subscribe</button>
-                        </div> */}
-
-                    <div className='border-dark border-2 rounded-[2rem]  min-w-[17.4rem] flex gap-4 items-center justify-between'>
-                        <span className='pl-6 sm:text-xl text-[#474747] flex-1'>Your Email Address</span>
-                        <button className='bg-black rounded-r-[2rem] text-white py-2 px-4'>
+                {/* newsletter */}
+                <div className="flex flex-col gap-3">
+                    <h4 className="text-dark text-lg font-semibold">Stay Updated</h4>
+                    <p className="text-sm">
+                        Subscribe to our newsletter and join the Aayurveda family.
+                    </p>
+                    <form className="mt-2 flex">
+                        <input
+                            type="email"
+                            placeholder="Your email address"
+                            className="flex-1 rounded-l-full border border-dark px-4 py-2 focus:outline-none"
+                        />
+                        <button
+                            type="submit"
+                            className="bg-black text-white rounded-r-full px-6 py-2 hover:bg-gray-800 transition"
+                        >
                             Subscribe
                         </button>
-                    </div>
-
+                    </form>
                 </div>
             </div>
-        </>
+
+            <div className="border-t border-[#cccccc] pt-6 text-center text-sm text-[#666666]">
+                © {new Date().getFullYear()} Aayurveda. All rights reserved.
+            </div>
+        </footer>
     )
 }
 

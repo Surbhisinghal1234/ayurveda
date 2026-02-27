@@ -1,6 +1,4 @@
-import round from "../../assets/images/round.png"
 import strong from "../../assets/images/strong.png"
-import yogaGirl from "../../assets/images/yoga-girl.png"
 import heartBeat from "../../assets/images/heartbeat.png"
 import ribbon from "../../assets/images/ribbon.png"
 import protection from "../../assets/images/protection.png"

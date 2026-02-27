@@ -1,4 +1,3 @@
-import React from 'react'
 import round from "../../assets/images/round.png"
 import strong from "../../assets/images/strong.png"
 import yogaGirl from "../../assets/images/yoga-girl.png"
@@ -30,7 +29,7 @@ const Magic = () => {
             </div>
             <div className='flex  gap-4 mr-[2rem]'>
                 <div className='w-[60%] text-end'>
-                    <h4 className='font-semibold'>Mind-Body Connection"
+                    <h4 className='font-semibold'>Mind-Body Connection
                     </h4>
                     <p className='text-[#515151]'>Keep your mind and body in sync for a happy life.</p>
                 </div>

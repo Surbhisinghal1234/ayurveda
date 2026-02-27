@@ -1,4 +1,3 @@
-import React from 'react'
 import { customerData } from './CustomerData'
 import "./customerStories.css"
 import { Swiper, SwiperSlide } from 'swiper/react';

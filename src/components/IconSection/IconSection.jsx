@@ -1,5 +1,4 @@
 
-import React from 'react'
 import { items } from './IconData'
 
 const IconSection = () => {

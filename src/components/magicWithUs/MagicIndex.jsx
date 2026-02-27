@@ -1,4 +1,3 @@
-import React from 'react'
 import MagicHeader from './MagicHeader'
 import Magic from './Magic'
 import "./magic.css"

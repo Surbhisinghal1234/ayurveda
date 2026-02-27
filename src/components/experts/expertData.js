@@ -1,4 +1,3 @@
-import react from "react"
 import expertImg from "../../assets/images/expert-img.png"
 
 

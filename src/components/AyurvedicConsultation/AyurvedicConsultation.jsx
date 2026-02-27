@@ -1,4 +1,3 @@
-import React from 'react'
 import { cardData } from './CardData'
 
 const AyurvedicConsultation = () => {
