@@ -41,12 +41,11 @@ const Footer = () => {
                 {/* contact details */}
                 <div className="flex flex-col gap-3">
                     <h4 className="text-dark text-lg font-semibold">Contact Us</h4>
-                    <p className="text-sm">support@amrutam.co.in</p>
+                    <p className="text-sm">support@amrutam.co   .in</p>
                     <p className="text-sm">
-                        Amrutam Pharmaceuticals Pvt Ltd., Chitragupt Ganj, Nai Sadak,
-                        Lashkar, Gwalior - 474001
+                        Amrutam Pharmaceuticals Pvt Ltd.
                     </p>
-                    <p className="text-sm">+91 97131 71999</p>
+                    {/* <p className="text-sm">+91 97131 71999</p> */}
                 </div>
 
                 {/* newsletter */}
