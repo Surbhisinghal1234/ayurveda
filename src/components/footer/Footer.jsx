@@ -54,7 +54,7 @@ const Footer = () => {
                     <p className="text-sm">
                         Subscribe to our newsletter and join the Aayurveda family.
                     </p>
-                    <form className="mt-2 flex">
+                    {/* <form className="mt-2 flex">
                         <input
                             type="email"
                             placeholder="Your email address"
@@ -66,7 +66,7 @@ const Footer = () => {
                         >
                             Subscribe
                         </button>
-                    </form>
+                    </form> */}
                 </div>
             </div>
 
